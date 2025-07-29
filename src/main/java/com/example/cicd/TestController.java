@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
+	//test
 	@GetMapping("/hi")
 	public String testMethod() {
 		return "내가 만든 서버";
